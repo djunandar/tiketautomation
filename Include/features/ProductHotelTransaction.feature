@@ -21,12 +21,26 @@ Feature: Title of your feature
   I want to use this template for my feature file
 
   @tag1
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+  Scenario Outline: User want to reserve a hotel
+    Given User navigate to Tiket Page
+    When User fill choose <tujuan> 
+    And User choose <startdate>
+    And User choose <enddate>
+    And User choose amount of <guest>
+    And	User choose amount of <room>
+    Then I verify the result page 
+    And User choose hotel from result page
+    Then User directed to detail hotel page
+    And User choose available room hotel
+    Then User fill detail order form
+    And User will directed to payment page
+    Then User choose payment method
+    And click lanjutkan
+    Then After payment success User can see the detail of order
+    
+    
+    Example:
+    |tujuan	| stardate					| enddate						|	guest	|	room	|
+    |bali		| 27-februari-2021 	| 28-februari-2021  | 6			|	5			|  
 
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+ 

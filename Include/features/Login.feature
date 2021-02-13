@@ -21,14 +21,8 @@ Feature: Login with facebook feature
   Feature file to login with Facebook account story.
 
   @tag1
-  Scenario Outline: As a user, I want to login to Tiket.com dashboard page and login with Facebook Account
+  Scenario: As a user, I want to login to Tiket.com dashboard page and login with Facebook Account
     Given I open the Tiket Homepage
     And I click on Login Button
-    When I input <username> and <password>
-    Then I verify the <status> in this step
-    And I verify the <value> in profile
-
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+    When I Masuk with Faebook
+    Then I Sign in with Facebook

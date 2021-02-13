@@ -43,36 +43,88 @@ import cucumber.api.java.en.When
 
 
 
-class LoginSteps {
+class hotelTransactionSteps {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
-	}
-	
-	
-	@Given ("I open the Tiket Homepage")
-	def Loginstep1(String name1) {
+	@Given("User navigate to Tiket Page")
+	def navigateToLoginPAge() {
 		WebUI.openBrowser('')
+
 		WebUI.navigateToUrl('http://www.tiket.com')
-		println name1
 	}
-	@And ("I click on Login Button")
-	def Loginstep2(String name2) {
-		println name2
+	
+	@When("User fill choose <tujuan>")
+	def I_check_for_the_value_in_step(int value) {
+		println value
 	}
-	@When ("I Masuk with Faebook")
-	def Loginstep3(String name3) {
-		println name3
+	
+	
+	@And ("User choose <startdate>")
+	def I_check_for_the_value_in_step2(int value) {
+		println value
 	}
-//	@And ("Faebook pop up message appears")
-//	def Loginstep4(String name4) {
-//		println name4
-//	}
-	@Then ("I Sign in with Facebook")
-	def Loginstep5(String name5) {
-		println name5
+	
+	@And ("User choose <enddate>")
+	def I_check_for_the_value_in_step3(int value) {
+		println value
+	}
+	
+	@And ("User choose amount of <guest>")
+	def I_check_for_the_value_in_step4(int value) {
+		println value
+	}
+	
+	@And("User choose amount of <room>")
+	def I_check_for_the_value_in_step5(int value) {
+		println value
+	}
+	
+	
+	@Then ("I verify the result page")
+	def I_check_for_the_value_in_step6(int value) {
+		println value
+	}
+	
+	@And ("User choose hotel from result page")
+	def I_check_for_the_value_in_step7(int value) {
+		println value
+	}
+	
+	@Then ("User directed to detail hotel page")
+	def I_check_for_the_value_in_step8(int value) {
+		println value
+	}
+	
+	@And ("User choose available room hotel")
+	def I_check_for_the_value_in_step9(int value) {
+		println value
+	}
+	
+	@Then ("User fill detail order form")
+	def I_check_for_the_value_in_step10(int value) {
+		println value
+	}
+
+	
+	@And ("User will directed to payment page")
+	def I_check_for_the_value_in_step11(int value) {
+		println value
+	}
+	
+	
+	@Then ("User choose payment method")
+	def I_check_for_the_value_in_step12(int value) {
+		println value
+	}
+	
+	@And ("click lanjutkan")
+	def I_check_for_the_value_in_step13(int value) {
+		println value
+	}
+	
+	@Then ("After payment success User can see the detail of order")
+	def I_check_for_the_value_in_step14(int value) {
+		println value
 	}
 }
