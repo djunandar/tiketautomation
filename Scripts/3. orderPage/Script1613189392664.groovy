@@ -17,3 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Order Page/Tidak Memilih Dropdown'))
 
+WebUI.click(findTestObject('Order Page/Lanjut Pembayaran - button'))
+

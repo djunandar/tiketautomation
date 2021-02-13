@@ -264,7 +264,7 @@ Scenario: Ensure user can not double login
 	Then: User will not be directed to login page.
 
 
-@negative9 // bugs i found
+@negative9 ## bugs i found
 Scenario: User check last transaction while user already log out to the application
 	Given: User already logged in to the Tiket.com website
 	When: User Click on My Order page
@@ -274,7 +274,7 @@ Scenario: User check last transaction while user already log out to the applicat
 	Then: user directed to login page <in this case, the user can still view last transaction and click detail of the transaction>
 
 
-@negative10 // bugs i found
+@negative10 ## bugs i found
 Scenario: User check last transaction while user already log out to the application
 	Given: User already logged in to the Tiket.com website
 	When: User Click on Setting page

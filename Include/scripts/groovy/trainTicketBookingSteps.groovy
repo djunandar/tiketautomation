@@ -43,7 +43,7 @@ import cucumber.api.java.en.When
 
 
 
-class hotelTransactionSteps {
+class trainTicketBookingSteps {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
@@ -54,14 +54,21 @@ class hotelTransactionSteps {
 		WebUI.navigateToUrl('http://www.tiket.com')
 	}
 
-	@When("User fill choose tujuan")
+	@When("User fill choose keberangkatan")
 	def I_check_for_the_value_in_step(int value) {
-	WebUI.setText(findTestObject('Dashboard/tujuan Hotel'), 'bali')
+	WebUI.setText(findTestObject('Dashboard/berangkatKereta - dropdown'), 'jakarta')
 	WebUI.scrollToElement(findTestObject('Dashboard/dropdown - place1'), 0)
 	WebUI.verifyElementClickable(findTestObject('Dashboard/dropdown - place1'))
 	WebUI.enhancedClick(findTestObject('Dashboard/dropdown - place1'))
 	}
-
+	
+	@And ("User choose tujuan")
+	def I_check_for_the_value_in_step1(int value) {
+	WebUI.setText(findTestObject('Dashboard/tujuanKereta - dropdown'), 'malang')
+	WebUI.scrollToElement(findTestObject('Dashboard/dropdown - place1'), 0)
+	WebUI.verifyElementClickable(findTestObject('Dashboard/dropdown - place1'))
+	WebUI.enhancedClick(findTestObject('Dashboard/dropdown - place1'))
+	}
 
 	@And ("User choose start date")
 	def I_check_for_the_value_in_step2(int value) {

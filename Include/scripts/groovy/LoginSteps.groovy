@@ -47,30 +47,32 @@ class LoginSteps {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
-	}
-	
-	
+
+
 	@Given ("I open the Tiket Homepage")
-	def Loginstep1(String name1) {
+	def Loginstep1() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('http://www.tiket.com')
-		println name1
+		WebUI.navigateToUrl('http://www.tiket.com/login')
 	}
-	@And ("I click on Login Button")
-	def Loginstep2(String name2) {
-		println name2
+	@And ("I click on Login button")
+	def Loginstep2() {
+		WebUI.maximizeWindow()
 	}
-	@When ("I Masuk with Faebook")
-	def Loginstep3(String name3) {
-		println name3
+	@When ("I click Masuk with Faebook")
+	def Loginstep3() {
+		WebUI.click(findTestObject('Object Repository/Login/DB - Facebook'))
+		
+		
 	}
-//	@And ("Faebook pop up message appears")
-//	def Loginstep4(String name4) {
-//		println name4
-//	}
+
+	@And ("And I Switch frame to facebook pop up")
+	def Loginstep7() {
+		WebUI.switchToWindowIndex(1, FailureHandling.CONTINUE_ON_FAILURE)
+	}
+	//	@And ("Faebook pop up message appears")
+	//	def Loginstep4(String name4) {
+	//		println name4
+	//	}
 	@Then ("I Sign in with Facebook")
 	def Loginstep5(String name5) {
 		println name5

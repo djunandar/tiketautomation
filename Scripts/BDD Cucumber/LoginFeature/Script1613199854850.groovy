@@ -15,18 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Result Page/PlaceNumber1'))
+CucumberKW.runFeatureFile('Include/features/Login.feature')
 
-currentWindow = WebUI.getWindowIndex()
-
-//Go To New Tab
-WebUI.switchToWindowIndex(currentWindow + 1)
-
-WebUI.click(findTestObject('Result Page/chooseHotel'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('Order Page/Tidak Memilih Dropdown'))
-
-WebUI.verifyElementPresent(findTestObject('Result Page/chooseHotel'), 0)
+CucumberKW.runFeatureFolder('Include/features')
 
