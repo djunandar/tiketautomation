@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_20</name>
+   <tag></tag>
+   <elementGuidId>4735dc7d-1436-4f8f-901e-facd038d0c19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='endDate']/div[2]/div/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr[3]/td[7]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.CalendarDay.CalendarDay_1.CalendarDay__default.CalendarDay__default_2.CalendarDay__lastDayOfWeek.CalendarDay__lastDayOfWeek_3.CalendarDay__selected_end.CalendarDay__selected_end_4.CalendarDay__selected.CalendarDay__selected_5 > div.widget-date-picker-day > span.widget-date-picker-date-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>widget-date-picker-date-content</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;endDate&quot;)/div[@class=&quot;widget-drop-down&quot;]/div[@class=&quot;widget-drop-down-content&quot;]/div[@class=&quot;widget-date-picker end-date&quot;]/div[@class=&quot;widget-date-picker-content&quot;]/div[@class=&quot;DayPicker DayPicker_1 DayPicker__horizontal DayPicker__horizontal_2 DayPicker__withBorder DayPicker__withBorder_3&quot;]/div[1]/div[1]/div[@class=&quot;DayPicker_focusRegion DayPicker_focusRegion_1&quot;]/div[@class=&quot;DayPicker_transitionContainer DayPicker_transitionContainer_1 DayPicker_transitionContainer__horizontal DayPicker_transitionContainer__horizontal_2&quot;]/div[@class=&quot;CalendarMonthGrid CalendarMonthGrid_1 CalendarMonthGrid__horizontal CalendarMonthGrid__horizontal_2&quot;]/div[@class=&quot;CalendarMonthGrid_month__horizontal CalendarMonthGrid_month__horizontal_1&quot;]/div[@class=&quot;CalendarMonth CalendarMonth_1&quot;]/table[@class=&quot;CalendarMonth_table CalendarMonth_table_1&quot;]/tbody[1]/tr[3]/td[@class=&quot;CalendarDay CalendarDay_1 CalendarDay__default CalendarDay__default_2 CalendarDay__lastDayOfWeek CalendarDay__lastDayOfWeek_3 CalendarDay__selected_end CalendarDay__selected_end_4 CalendarDay__selected CalendarDay__selected_5&quot;]/div[@class=&quot;widget-date-picker-day&quot;]/span[@class=&quot;widget-date-picker-date-content&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='endDate']/div[2]/div/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr[3]/td[7]/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hari ini'])[1]/following::span[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Februari 2021'])[1]/following::span[21]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maret 2021'])[1]/preceding::span[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='April 2021'])[1]/preceding::span[40]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/table/tbody/tr[3]/td[7]/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hari ini'])[1]/following::span[9]</value>
+   </webElementXpaths>
+</WebElementEntity>

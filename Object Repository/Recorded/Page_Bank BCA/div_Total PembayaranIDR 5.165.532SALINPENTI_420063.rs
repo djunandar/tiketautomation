@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Total PembayaranIDR 5.165.532SALINPENTI_420063</name>
+   <tag></tag>
+   <elementGuidId>7573b1de-0892-449b-8f2c-cc4843ae3d35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='tooltip-container'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.overlay-div.total-payment.last-digit-tooltip.va-number-wrap.with-notify > #tooltip-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tooltip-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total PembayaranIDR 5.165.532SALINPENTING!Transfer sesuai dengan jumlah angka yang tertera pada total bayar atau pesanan anda tidak akan dikonfirmasi.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;content layout&quot;]/div[@class=&quot;main-wrap&quot;]/div[@class=&quot;payment-confirm&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-8&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;card white&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card bank-account-information&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;overlay-div total-payment last-digit-tooltip va-number-wrap with-notify&quot;]/div[@id=&quot;tooltip-container&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='tooltip-container'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/div[2]/div[2]/div/div/div/div/div/div/div[4]/div[2]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sesuai dengan jumlah angka yang tertera pada total bayar'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SALIN'])[2]/following::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

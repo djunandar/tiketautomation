@@ -1,2 +1,0 @@
-# tiketautomation
-Tiket reservation automation
